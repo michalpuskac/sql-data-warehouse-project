@@ -1,4 +1,4 @@
-# Data Warehouse and Analytics Project
+# Data Warehouse Project
 
 Welcome to the Data Warehouse and Analytics Project repository! This project demonstrates a comprehensive data warehousing solution, from ingesting raw data to generating actionable business insights using SQL. It serves as a portfolio piece showcasing skills in data engineering, data modeling, and data analysis.
 
@@ -22,18 +22,15 @@ The project employs the **Medallion Architecture** to structure the data warehou
   <img src="https://github.com/michalpuskac/sql-data-warehouse-project/blob/main/docs/data_flow.png" width="75%"/> 
 </div>
 
-* **🥉 Bronze Layer:** Raw data is ingested directly from the source CSV files (ERP, CRM) into SQL Server tables without transformation. This layer serves as the historical archive of source data. *(See: `scripts/bronze/`)*
-* **🥈 Silver Layer:** Data from the Bronze layer undergoes cleansing, standardization, transformation. Data quality issues are addressed here, resulting in a validated and consistent dataset. *(See: `scripts/silver/`)*
-* **🥇 Gold Layer:** Business-ready data is modeled into a **Star Schema** (optimized for analytics) consisting of fact and dimension tables. This layer directly serves reporting and analytics needs. *(See: `scripts/gold/`)*
+* **🥉 Bronze Layer:** Raw data is ingested directly from the source CSV files (ERP, CRM) into SQL Server tables without transformation. This layer serves as the historical archive of source data. *(See: [scripts/bronze/](https://github.com/michalpuskac/sql-data-warehouse-project/tree/main/scripts/bronze))*
+* **🥈 Silver Layer:** Data from the Bronze layer undergoes cleansing, standardization, transformation. Data quality issues are addressed here, resulting in a validated and consistent dataset. *(See: [scripts/silver/](https://github.com/michalpuskac/sql-data-warehouse-project/tree/main/scripts/silver))*
+* **🥇 Gold Layer:** Business-ready data is modeled into a **Star Schema** (optimized for analytics) consisting of fact and dimension tables. This layer directly serves reporting and analytics needs. *(See: [scripts/gold/](https://github.com/michalpuskac/sql-data-warehouse-project/tree/main/scripts/gold))*
 
 <div align="center">
   <img src="https://github.com/michalpuskac/sql-data-warehouse-project/blob/main/docs/data_integration%20Diagram.png" width="85%" />
    <br/>
   <img src="https://github.com/michalpuskac/sql-data-warehouse-project/blob/main/docs/sales_data_mart.png" width="85%"/> 
 </div>
-
-<!-- ![Data Integration](https://github.com/michalpuskac/sql-data-warehouse-project/blob/main/docs/data_integration%20Diagram.png)
-![Gold Layer Star Schema](https://github.com/michalpuskac/sql-data-warehouse-project/blob/main/docs/sales_data_mart.png) -->
 
 ## 🛠️ Tools & Technologies
 
