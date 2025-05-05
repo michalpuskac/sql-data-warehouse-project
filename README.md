@@ -82,11 +82,11 @@ data-warehouse-project/
 └── requirements.txt                    # Dependencies and requirements for the project
 ```
 
-## ⚙️ Getting Started (Example Setup)
+## ⚙️ Getting Started 
 
 1. **Prerequisites:**
     * Ensure you have SQL Server (Express or other edition) and SQL Server Management Studio (SSMS) installed.
-    * Clone this repository: `git clone git clone https://github.com/michalpuskac/sql-data-warehouse-project.git`
+    * Clone this repository: `git clone https://github.com/michalpuskac/sql-data-warehouse-project.git`
     <br>
     
     * **Important:** Place the source CSV files (e.g., `cust_info.csv`, `prd_info.csv`, `sales_details.csv`, `loc_a101.csv`, `cust_az12.csv`, `px_cat_g1v2.csv`) in a location accessible *by the SQL Server instance*. The default paths in the load script are `/data/source_crm/` and `/data/source_erp/`.
