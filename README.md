@@ -50,6 +50,14 @@ The project employs the **Medallion Architecture** to structure the data warehou
 * **Documentation:** Creating diagrams and descriptions for architecture, data flow, and data models. *(See: [docs/](https://github.com/michalpuskac/sql-data-warehouse-project/tree/main/docs))*
 
 
+## 📊 Downstream Analysis Project
+
+The Gold Layer data produced by this Data Warehouse serves as the foundation for further exploratory and advanced analysis. See the following project for examples of how this data was analyzed using SQL to derive business insights:
+
+### [SQL Data Analysis Project](https://github.com/michalpuskac/sql-data-analysis.git)
+
+---
+
 ## 🗂  Repository Structure
 ```
 data-warehouse-project/
